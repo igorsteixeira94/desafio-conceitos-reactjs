@@ -10,7 +10,13 @@ body {
 
 div {
   width: 100%;
-  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+ul{
+  margin-top: 40px;
 }
 
 div li {
@@ -22,15 +28,44 @@ div li + li {
   margin-top: 15px;
 }
 
+label{
+  display: block;
+  margin:16px 0px;
+}
+
+input{
+  display: block;
+
+  height: 40px;
+  width: 320px;
+
+  margin-top:8px;
+
+  border:1px solid #eee;
+  border-radius:8px;
+  padding: 12px;
+
+  outline: none;
+}
+
+form{
+  display: block;
+  margin: 0px 32px;
+}
+
+
 button {
   background: #7159c1;
   color: #fff;
   border: 0;
   padding: 10px 15px;
+  border-radius: 8px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+
+  margin-top: 40px;
+
 }
 
 div li button {
